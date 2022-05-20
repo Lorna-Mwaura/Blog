@@ -3,7 +3,7 @@ import os
 class Config:
 
     SECRET_KEY = ('123Qwe')
-    SQLALCHEMY_DATABASE_URI = 'sqlite:////home/lona/Desktop/Blog/blog.db'
+    SQLALCHEMY_DATABASE_URI = 'postgres://xmhxzefqgtqvvn:ff969f7dc966d4693085fd03bbaf174c009467728d5b6c91997ed649bd432cd1@ec2-34-236-94-53.compute-1.amazonaws.com:5432/d20rk3iuqte2gj'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     # UPLOADED_PHOTOS_DEST ='app/static/photos'
 
